@@ -1,5 +1,5 @@
 
-
+#starts out the first question
 class Questionone:
     print("What is my middle name?\n A. Lynn\n B. Carol\n C. Mary\n D. none of the above")
     input("please enter the letter of your choice")
@@ -8,6 +8,12 @@ class Questionone:
         print("correct!")
     if answer == "B" "C" or "D":
         print("incorrect")
-
+#starts the second question
 class Questiontwo:
-    print("what is my favorite brand of chocolate?")
+    print("what is my favorite brand of chocolate?\n A. hershey\n B. Crunch")
+    input("please enter the letter of your choice")
+    answer = ["A", "B"]
+    if answer == "B":
+        print("correct!")
+    if answer == "A":  
+        print("incorrect!")
