@@ -1,0 +1,10 @@
+
+
+class Questionone:
+    print("What is my middle name?/n A. Lynn/n B. Carol/n C. Mary/n D. none of the above")
+    input("please enter the letter of your choice")
+    answer = ["A", "B", "C", "D"]
+    if answer == "A":
+        print("correct!")
+    if answer == "B" "C" or "D":
+        print("incorrect")
